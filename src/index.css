@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.header{
+  padding: 10px;
+  color: #fff;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 1;
+}
+.header .Wildfire{
+  background-color: #cb4154;
+}
+.header .Storm{
+  background-color: rgb(0, 9, 133);
+}
+
+.header h1{
+  display: inline;
+  padding: 10px 20px;
+  margin: 0;
+  font-size: 25px;
+  text-align: left;
+}
+
+.header Icon{
+  font-size: 2rem;
+}
+
+.choice{
+  display: inline;
+  padding-left: 50px;
+}
+
+.choice label{
+  margin-right: 30px;
+}
+
+.map{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.fireIcon{
+  font-size: 2.5rem;
+  color: rgb(255, 91, 91);
+}
+.stormIcon{
+  font-size: 2.5rem;
+  color: rgb(0, 9, 133);
+} 
+
+.loader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.location-info{
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.location-info ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-info li{
+  padding: 5px 0;
+}
